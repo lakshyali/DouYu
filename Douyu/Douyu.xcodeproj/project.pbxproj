@@ -18,6 +18,7 @@
 		5FD1A4882043FFFD0096F075 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD1A4872043FFFD0096F075 /* Live.storyboard */; };
 		5FD1A48A204400220096F075 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD1A489204400220096F075 /* Follow.storyboard */; };
 		5FD1A48C2044003B0096F075 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD1A48B2044003B0096F075 /* Profile.storyboard */; };
+		5FD1A48E204402900096F075 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1A48D204402900096F075 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		5FD1A4872043FFFD0096F075 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Live.storyboard; path = Douyu/Classes/Live/Live.storyboard; sourceTree = "<group>"; };
 		5FD1A489204400220096F075 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Follow.storyboard; path = Douyu/Classes/Follow/Follow.storyboard; sourceTree = "<group>"; };
 		5FD1A48B2044003B0096F075 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = Douyu/Classes/Profile/Profile.storyboard; sourceTree = "<group>"; };
+		5FD1A48D204402900096F075 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Classes/Main/MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				5F3849A62043DED100B43FDE /* Assets.xcassets */,
 				5F3849A82043DED100B43FDE /* LaunchScreen.storyboard */,
 				5F3849AB2043DED100B43FDE /* Info.plist */,
+				5FD1A48D204402900096F075 /* MainViewController.swift */,
 			);
 			path = Douyu;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F3849D22043EA3600B43FDE /* AppDelegate.swift in Sources */,
+				5FD1A48E204402900096F075 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ACWPH5KQ95;
 				INFOPLIST_FILE = Douyu/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lakaiyi.com.app.Douyu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,7 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ACWPH5KQ95;
 				INFOPLIST_FILE = Douyu/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lakaiyi.com.app.Douyu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
