@@ -14,10 +14,6 @@
 		5F3849C02043DED200B43FDE /* DouyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3849BF2043DED200B43FDE /* DouyuUITests.swift */; };
 		5F3849CE2043E43B00B43FDE /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 5F3849CD2043E43B00B43FDE /* Classes */; };
 		5F3849D22043EA3600B43FDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3849D12043EA3600B43FDE /* AppDelegate.swift */; };
-		5FD1A4862043FF030096F075 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD1A4852043FF030096F075 /* Home.storyboard */; };
-		5FD1A4882043FFFD0096F075 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD1A4872043FFFD0096F075 /* Live.storyboard */; };
-		5FD1A48A204400220096F075 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD1A489204400220096F075 /* Follow.storyboard */; };
-		5FD1A48C2044003B0096F075 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD1A48B2044003B0096F075 /* Profile.storyboard */; };
 		5FD1A48E204402900096F075 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1A48D204402900096F075 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,10 +48,6 @@
 		5F3849C12043DED200B43FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F3849CD2043E43B00B43FDE /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		5F3849D12043EA3600B43FDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5FD1A4852043FF030096F075 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = Douyu/Classes/Home/Home.storyboard; sourceTree = "<group>"; };
-		5FD1A4872043FFFD0096F075 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Live.storyboard; path = Douyu/Classes/Live/Live.storyboard; sourceTree = "<group>"; };
-		5FD1A489204400220096F075 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Follow.storyboard; path = Douyu/Classes/Follow/Follow.storyboard; sourceTree = "<group>"; };
-		5FD1A48B2044003B0096F075 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = Douyu/Classes/Profile/Profile.storyboard; sourceTree = "<group>"; };
 		5FD1A48D204402900096F075 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Classes/Main/MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,10 +79,6 @@
 		5F3849932043DED100B43FDE = {
 			isa = PBXGroup;
 			children = (
-				5FD1A48B2044003B0096F075 /* Profile.storyboard */,
-				5FD1A489204400220096F075 /* Follow.storyboard */,
-				5FD1A4872043FFFD0096F075 /* Live.storyboard */,
-				5FD1A4852043FF030096F075 /* Home.storyboard */,
 				5F38499E2043DED100B43FDE /* Douyu */,
 				5F3849B32043DED200B43FDE /* DouyuTests */,
 				5F3849BE2043DED200B43FDE /* DouyuUITests */,
@@ -248,11 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F3849AA2043DED100B43FDE /* LaunchScreen.storyboard in Resources */,
-				5FD1A4862043FF030096F075 /* Home.storyboard in Resources */,
-				5FD1A48C2044003B0096F075 /* Profile.storyboard in Resources */,
-				5FD1A4882043FFFD0096F075 /* Live.storyboard in Resources */,
 				5F3849CE2043E43B00B43FDE /* Classes in Resources */,
-				5FD1A48A204400220096F075 /* Follow.storyboard in Resources */,
 				5F3849A72043DED100B43FDE /* Assets.xcassets in Resources */,
 				5F3849A52043DED100B43FDE /* Main.storyboard in Resources */,
 			);
